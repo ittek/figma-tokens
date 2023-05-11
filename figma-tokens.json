@@ -1,0 +1,246 @@
+{
+  "global": {
+    "blue-vivld": {
+      "blue-vivid-80": {
+        "value": "#012B56",
+        "type": "color",
+        "description": "Blue-vivid-80 from USWDS"
+      },
+      "blue-vivid-70": {
+        "value": "#013B76",
+        "type": "color"
+      },
+      "blue-vivid-60": {
+        "value": "#0251A1",
+        "type": "color"
+      },
+      "blue-vivid-50": {
+        "value": "#0069D2",
+        "type": "color"
+      },
+      "blue-vivid-40": {
+        "value": "#2491FF",
+        "type": "color"
+      },
+      "blue-vivid-30": {
+        "value": "#58B4FF",
+        "type": "color"
+      },
+      "blue-vivid-20": {
+        "value": "#A1D3FF",
+        "type": "color"
+      },
+      "blue-vivid-10": {
+        "value": "#CFE8FF",
+        "type": "color"
+      },
+      "blue-vivid-5": {
+        "value": "#E8F5FF",
+        "type": "color"
+      },
+      "blue-vivid-2": {
+        "value": "#F5FBFF",
+        "type": "color"
+      }
+    },
+    "gray": {
+      "gray-cool-90": {
+        "value": "#1C1D1F",
+        "type": "color"
+      },
+      "gray-cool-80": {
+        "value": "#2D2E2F",
+        "type": "color"
+      },
+      "gray-cool-70": {
+        "value": "#3D4551",
+        "type": "color"
+      },
+      "gray-cool-60": {
+        "value": "#565C65",
+        "type": "color"
+      },
+      "gray-cool-50": {
+        "value": "#71767A",
+        "type": "color"
+      },
+      "gray-cool-40": {
+        "value": "#8D9297",
+        "type": "color"
+      },
+      "gray-cool-30": {
+        "value": "#A9AEB1",
+        "type": "color"
+      },
+      "gray-cool-20": {
+        "value": "#C6CACE",
+        "type": "color"
+      },
+      "gray-cool-10": {
+        "value": "#DFE1E2",
+        "type": "color"
+      },
+      "gray-cool-5": {
+        "value": "#EDEFF0",
+        "type": "color"
+      },
+      "gray-cool-4": {
+        "value": "#F1F3F6",
+        "type": "color"
+      },
+      "gray-cool-3": {
+        "value": "#F5F6F7",
+        "type": "color"
+      },
+      "gray-cool-2": {
+        "value": "#F7F9FA",
+        "type": "color"
+      },
+      "gray-cool-1": {
+        "value": "#FBFCFD",
+        "type": "color"
+      }
+    },
+    "brand": {
+      "primary": {
+        "spire-color-brand-primary": {
+          "value": "{blue-vivld.blue-vivid-40}",
+          "type": "color",
+          "description": "The primary brand color in its default shade"
+        },
+        "spire-color-brand-primary__accent": {
+          "value": "{blue-vivld.blue-vivid-40}",
+          "type": "color"
+        },
+        "spire-color-brand-primary__dark": {
+          "value": "{blue-vivld.blue-vivid-70}",
+          "type": "color"
+        },
+        "spire-color-brand-primary__light": {
+          "value": "{blue-vivld.blue-vivid-20}",
+          "type": "color"
+        },
+        "spire-color-brand-primary__x-light": {
+          "value": "{blue-vivld.blue-vivid-5}",
+          "type": "color"
+        },
+        "spire-color-brand-primary__2x-light": {
+          "value": "{blue-vivld.blue-vivid-2}",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "spire-color-brand-neutral": {
+          "value": "{gray.gray-cool-50}",
+          "type": "color"
+        },
+        "spire-color-brand-neutral__dark": {
+          "value": "{gray.gray-cool-70}",
+          "type": "color"
+        },
+        "spire-color-brand-neutral__light": {
+          "value": "{gray.gray-cool-20}",
+          "type": "color"
+        },
+        "spire-color-brand-neutral__x-light": {
+          "value": "{gray.gray-cool-5}",
+          "type": "color"
+        },
+        "spire-color-brand-neutral__2x-light": {
+          "value": "{white}",
+          "type": "color"
+        }
+      }
+    },
+    "white": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "basesize": {
+      "value": "16px",
+      "type": "dimension",
+      "description": "Base size for desktop\n"
+    },
+    "spacing__default": {
+      "value": "{basesize}",
+      "type": "spacing"
+    },
+    "spacing__small": {
+      "value": "{basesize}/2",
+      "type": "spacing"
+    },
+    "spacing__x-small": {
+      "value": "{basesize}/4",
+      "type": "spacing"
+    },
+    "spacing__large": {
+      "value": "{basesize}/4*8",
+      "type": "spacing"
+    },
+    "spacing__x-large": {
+      "value": "{basesize}/4*16",
+      "type": "spacing"
+    },
+    "orange-warm-5": {
+      "value": "#faeee5",
+      "type": "color"
+    },
+    "spacing__2x-large": {
+      "value": "{basesize} / 4 * 24",
+      "type": "spacing"
+    }
+  },
+  "$themes": [
+    {
+      "id": "563e365c1c9885757fe7bb0a42e99c305bea379f",
+      "name": "Spire",
+      "selectedTokenSets": {
+        "global": "enabled"
+      },
+      "$figmaStyleReferences": {
+        "blue-vivld.blue-vivid-80": "S:bd487a769ada229e8f1de66b457cebaf77af320c,",
+        "blue-vivld.blue-vivid-70": "S:d4227f8f200e957656de1780ec89b1c5ac9e8648,",
+        "blue-vivld.blue-vivid-60": "S:5de16423af686f474742be1826fbb9d6415b2202,",
+        "blue-vivld.blue-vivid-50": "S:7ed500a424651b02283e08fcfb6063f041952f69,",
+        "blue-vivld.blue-vivid-40": "S:6f4e6393a358e94c6741b22593843ae749a076f8,",
+        "blue-vivld.blue-vivid-30": "S:6c1ec58ea73548e29ad9554ec25920e00e55d69a,",
+        "blue-vivld.blue-vivid-20": "S:4cc2e988f54c7da4fde19054d83f6a1c5710a43d,",
+        "blue-vivld.blue-vivid-10": "S:9de52ff59a85bb072cc397b8537c6cde0361100d,",
+        "blue-vivld.blue-vivid-5": "S:65f3a298acd31a2cb15e5f6d7041541213c3171a,",
+        "blue-vivld.blue-vivid-2": "S:60fb7de335b7bffb71918fd4a4028734a46bf3d4,",
+        "gray.gray-cool-90": "S:ff2646359ad96e63a05b5dbf4589b153dffc9c63,",
+        "gray.gray-cool-80": "S:4bdeba47638d485bfcd9e1ddcd47d66351635852,",
+        "gray.gray-cool-70": "S:e5275447c89b735bb3af0f62a629f3dd2e77902d,",
+        "gray.gray-cool-60": "S:c928b7411ed420ee3679dcb849eeb62e4ae38060,",
+        "gray.gray-cool-50": "S:2e851592988662f60cba82d4b9f5a42f07006213,",
+        "gray.gray-cool-40": "S:b4e95dcc787cbe4430cce88d6fdb1ca5a3e5fe19,",
+        "gray.gray-cool-30": "S:944216533a45fc65335fd51e3e02fef4a756ac5b,",
+        "gray.gray-cool-20": "S:8b1427e947efa238d208a271642d8aec3dbc56ed,",
+        "gray.gray-cool-10": "S:89488d292f748d7ee320454a84a15a7d40756f0f,",
+        "gray.gray-cool-5": "S:2bce15128aa38da2c56a1b52e0a782ff50ab1cd2,",
+        "gray.gray-cool-4": "S:1b1cfeb2aaaf1112aaaa8909acd691648f9a8959,",
+        "gray.gray-cool-3": "S:c3c7954e9f4f6765862c25b223a65e485bd39fd3,",
+        "gray.gray-cool-2": "S:c48f530e36ac1b2556a8774d830300314eef43bb,",
+        "gray.gray-cool-1": "S:badf371a8ab36ba635173e68da4e1f161b2c1420,",
+        "brand.primary.spire-color-brand-primary": "S:16f1d8e604a8aff6c702d79d87141e6743816d00,",
+        "brand.primary.spire-color-brand-primary__accent": "S:d35a2d90b93efe3ac085f12f7092ff3d86b5ffe1,",
+        "brand.primary.spire-color-brand-primary__dark": "S:d3d3d5d38a5b9fe097af7e41e707d6ce3e870464,",
+        "brand.primary.spire-color-brand-primary__light": "S:bc8a7540b74edd195bded3349dd64b6cee48c820,",
+        "brand.primary.spire-color-brand-primary__x-light": "S:9eef7bc65b5c88f5eefb19282c593def18d138e7,",
+        "brand.primary.spire-color-brand-primary__2x-light": "S:80db26ff483471956ee194240ce89043206bb4d4,",
+        "brand.neutral.spire-color-brand-neutral": "S:ef75324c87fe94632ad29f051d0e6f2a44715df0,",
+        "brand.neutral.spire-color-brand-neutral__dark": "S:3987195c01c13675b71af35a1f5f41062bfa435c,",
+        "brand.neutral.spire-color-brand-neutral__light": "S:fb5bd2aab4592fb7199530e2f6ceeb0d86a4c76b,",
+        "brand.neutral.spire-color-brand-neutral__x-light": "S:dbf0466ae64ec44eff4563cbcbf6fc2346460214,",
+        "brand.neutral.spire-color-brand-neutral__2x-light": "S:054d8b64481eb8b399fbe91ed8145e4d398e0d6a,",
+        "white": "S:7ef55415aaa5a00ca97c297b37e14499d34fb494,",
+        "orange-warm-5": "S:6642e54b1510e10b708e6c229ded8c07160422b7,"
+      }
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
