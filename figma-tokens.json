@@ -1,6 +1,6 @@
 {
   "global": {
-    "blue-vivld": {
+    "blue-vivid": {
       "2": {
         "value": "#F5FBFF",
         "type": "color"
@@ -104,12 +104,12 @@
     "brand": {
       "primary": {
         "spire-color-brand-primary": {
-          "value": "{blue-vivld.40}",
+          "value": "{blue-vivid.40}",
           "type": "color",
           "description": "The primary brand color in its default shade"
         },
         "spire-color-brand-primary__accent": {
-          "value": "{blue-vivld.40}",
+          "value": "{blue-vivid.40}",
           "type": "color"
         },
         "spire-color-brand-primary__dark": {
@@ -117,15 +117,15 @@
           "type": "color"
         },
         "spire-color-brand-primary__light": {
-          "value": "{blue-vivld.20}",
+          "value": "{blue-vivid.20}",
           "type": "color"
         },
         "spire-color-brand-primary__x-light": {
-          "value": "{blue-vivld.5}",
+          "value": "{blue-vivid.5}",
           "type": "color"
         },
         "spire-color-brand-primary__2x-light": {
-          "value": "{blue-vivld.2}",
+          "value": "{blue-vivid.2}",
           "type": "color"
         }
       },
