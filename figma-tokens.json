@@ -228,6 +228,7 @@
       }
     }
   },
+  "Colors": {},
   "$themes": [
     {
       "id": "563e365c1c9885757fe7bb0a42e99c305bea379f",
@@ -278,7 +279,8 @@
   ],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "Colors"
     ]
   }
 }
