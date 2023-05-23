@@ -108,7 +108,7 @@
           "type": "color",
           "description": "The primary brand color in its default shade"
         },
-        "spire-color-brand-primary__accent": {
+        "spire-color-brand-primary__light-1": {
           "value": "{blue-vivid.40}",
           "type": "color"
         },
@@ -238,7 +238,6 @@
       },
       "$figmaStyleReferences": {
         "brand.primary.spire-color-brand-primary": "S:16f1d8e604a8aff6c702d79d87141e6743816d00,",
-        "brand.primary.spire-color-brand-primary__accent": "S:d35a2d90b93efe3ac085f12f7092ff3d86b5ffe1,",
         "brand.primary.spire-color-brand-primary__dark": "S:d3d3d5d38a5b9fe097af7e41e707d6ce3e870464,",
         "brand.primary.spire-color-brand-primary__light": "S:bc8a7540b74edd195bded3349dd64b6cee48c820,",
         "brand.primary.spire-color-brand-primary__x-light": "S:9eef7bc65b5c88f5eefb19282c593def18d138e7,",
@@ -273,7 +272,8 @@
         "gray-cool.4": "S:1b1cfeb2aaaf1112aaaa8909acd691648f9a8959,",
         "gray-cool.3": "S:c3c7954e9f4f6765862c25b223a65e485bd39fd3,",
         "gray-cool.2": "S:c48f530e36ac1b2556a8774d830300314eef43bb,",
-        "gray-cool.1": "S:badf371a8ab36ba635173e68da4e1f161b2c1420,"
+        "gray-cool.1": "S:badf371a8ab36ba635173e68da4e1f161b2c1420,",
+        "brand.primary.spire-color-brand-primary__light-1": "S:d35a2d90b93efe3ac085f12f7092ff3d86b5ffe1,"
       }
     }
   ],
