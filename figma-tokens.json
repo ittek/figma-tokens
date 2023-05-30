@@ -1,5 +1,5 @@
 {
-  "global": {
+  "Spire": {
     "blue-vivid": {
       "2": {
         "value": "#F5FBFF",
@@ -103,50 +103,50 @@
     },
     "brand": {
       "primary": {
-        "spire-color-brand-primary": {
-          "value": "{blue-vivid.40}",
+        "__default": {
+          "value": "{blue-vivid.50}",
           "type": "color",
           "description": "The primary brand color in its default shade"
         },
-        "spire-color-brand-primary__light-1": {
-          "value": "{blue-vivid.40}",
-          "type": "color"
-        },
-        "spire-color-brand-primary__dark": {
+        "__dark-1": {
           "value": "{blue-warm.70}",
           "type": "color"
         },
-        "spire-color-brand-primary__light": {
+        "__light-1": {
           "value": "{blue-vivid.20}",
           "type": "color"
         },
-        "spire-color-brand-primary__x-light": {
+        "__light-2": {
+          "value": "{blue-vivid.10}",
+          "type": "color"
+        },
+        "__light-3": {
           "value": "{blue-vivid.5}",
           "type": "color"
         },
-        "spire-color-brand-primary__2x-light": {
+        "__light-4": {
           "value": "{blue-vivid.2}",
           "type": "color"
         }
       },
       "neutral": {
-        "spire-color-brand-neutral": {
+        "__default": {
           "value": "{gray-cool.50}",
           "type": "color"
         },
-        "spire-color-brand-neutral__dark": {
+        "__dark": {
           "value": "{gray-cool.70}",
           "type": "color"
         },
-        "spire-color-brand-neutral__light": {
+        "__light": {
           "value": "{gray-cool.20}",
           "type": "color"
         },
-        "spire-color-brand-neutral__x-light": {
+        "__x-light": {
           "value": "{gray-cool.5}",
           "type": "color"
         },
-        "spire-color-brand-neutral__2x-light": {
+        "__2x-light": {
           "value": "{white}",
           "type": "color"
         }
@@ -226,27 +226,92 @@
         "value": "#010b56",
         "type": "color"
       }
+    },
+    "mint-cool-vivid": {
+      "5": {
+        "value": "#F4FEED",
+        "type": "color"
+      },
+      "10": {
+        "value": "#e7fec2",
+        "type": "color"
+      },
+      "20": {
+        "value": "#C5EE84",
+        "type": "color"
+      },
+      "30": {
+        "value": "#A6D35D",
+        "type": "color"
+      },
+      "40": {
+        "value": "#85C123",
+        "type": "color"
+      },
+      "50": {
+        "value": "#6da118",
+        "type": "color"
+      },
+      "60": {
+        "value": "#578211",
+        "type": "color"
+      },
+      "70": {
+        "value": "#43650c",
+        "type": "color"
+      },
+      "80": {
+        "value": "#253807",
+        "type": "color"
+      }
+    },
+    "cyan-vivid": {
+      "5": {
+        "value": "#e5faff",
+        "type": "color"
+      },
+      "10": {
+        "value": "#a8f2ff",
+        "type": "color"
+      },
+      "20": {
+        "value": "#52daf2",
+        "type": "color"
+      },
+      "30": {
+        "value": "#00bde3",
+        "type": "color"
+      },
+      "40": {
+        "value": "#009bc2",
+        "type": "color"
+      },
+      "50": {
+        "value": "#0081a1",
+        "type": "color"
+      },
+      "60": {
+        "value": "#00687d",
+        "type": "color"
+      },
+      "70": {
+        "value": "#0e4f5c",
+        "type": "color"
+      },
+      "80": {
+        "value": "#093b44",
+        "type": "color"
+      }
     }
   },
-  "Colors": {},
   "$themes": [
     {
       "id": "563e365c1c9885757fe7bb0a42e99c305bea379f",
       "name": "Spire",
       "selectedTokenSets": {
-        "global": "enabled"
+        "Spire": "enabled"
       },
       "$figmaStyleReferences": {
-        "brand.primary.spire-color-brand-primary": "S:16f1d8e604a8aff6c702d79d87141e6743816d00,",
-        "brand.primary.spire-color-brand-primary__dark": "S:d3d3d5d38a5b9fe097af7e41e707d6ce3e870464,",
-        "brand.primary.spire-color-brand-primary__light": "S:bc8a7540b74edd195bded3349dd64b6cee48c820,",
-        "brand.primary.spire-color-brand-primary__x-light": "S:9eef7bc65b5c88f5eefb19282c593def18d138e7,",
-        "brand.primary.spire-color-brand-primary__2x-light": "S:80db26ff483471956ee194240ce89043206bb4d4,",
-        "brand.neutral.spire-color-brand-neutral": "S:ef75324c87fe94632ad29f051d0e6f2a44715df0,",
-        "brand.neutral.spire-color-brand-neutral__dark": "S:3987195c01c13675b71af35a1f5f41062bfa435c,",
-        "brand.neutral.spire-color-brand-neutral__light": "S:fb5bd2aab4592fb7199530e2f6ceeb0d86a4c76b,",
-        "brand.neutral.spire-color-brand-neutral__x-light": "S:dbf0466ae64ec44eff4563cbcbf6fc2346460214,",
-        "brand.neutral.spire-color-brand-neutral__2x-light": "S:054d8b64481eb8b399fbe91ed8145e4d398e0d6a,",
         "white": "S:7ef55415aaa5a00ca97c297b37e14499d34fb494,",
         "orange-warm-5": "S:6642e54b1510e10b708e6c229ded8c07160422b7,",
         "blue-vivld.80": "S:bd487a769ada229e8f1de66b457cebaf77af320c,",
@@ -273,14 +338,23 @@
         "gray-cool.3": "S:c3c7954e9f4f6765862c25b223a65e485bd39fd3,",
         "gray-cool.2": "S:c48f530e36ac1b2556a8774d830300314eef43bb,",
         "gray-cool.1": "S:badf371a8ab36ba635173e68da4e1f161b2c1420,",
-        "brand.primary.spire-color-brand-primary__light-1": "S:d35a2d90b93efe3ac085f12f7092ff3d86b5ffe1,"
+        "brand.primary.__default": "S:16f1d8e604a8aff6c702d79d87141e6743816d00,",
+        "brand.primary.__light-1": "S:d35a2d90b93efe3ac085f12f7092ff3d86b5ffe1,",
+        "brand.neutral.__default": "S:ef75324c87fe94632ad29f051d0e6f2a44715df0,",
+        "brand.neutral.__dark": "S:3987195c01c13675b71af35a1f5f41062bfa435c,",
+        "brand.neutral.__light": "S:fb5bd2aab4592fb7199530e2f6ceeb0d86a4c76b,",
+        "brand.neutral.__x-light": "S:dbf0466ae64ec44eff4563cbcbf6fc2346460214,",
+        "brand.neutral.__2x-light": "S:054d8b64481eb8b399fbe91ed8145e4d398e0d6a,",
+        "brand.primary.__dark-1": "S:d3d3d5d38a5b9fe097af7e41e707d6ce3e870464,",
+        "brand.primary.__light-2": "S:bc8a7540b74edd195bded3349dd64b6cee48c820,",
+        "brand.primary.__light-3": "S:9eef7bc65b5c88f5eefb19282c593def18d138e7,",
+        "brand.primary.__light-4": "S:80db26ff483471956ee194240ce89043206bb4d4,"
       }
     }
   ],
   "$metadata": {
     "tokenSetOrder": [
-      "global",
-      "Colors"
+      "Spire"
     ]
   }
 }
