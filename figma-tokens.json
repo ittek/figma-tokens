@@ -134,20 +134,43 @@
           "value": "{gray-cool.50}",
           "type": "color"
         },
-        "__dark": {
+        "__dark-1": {
           "value": "{gray-cool.70}",
           "type": "color"
         },
-        "__light": {
+        "__light-1": {
           "value": "{gray-cool.20}",
           "type": "color"
         },
-        "__x-light": {
+        "__light-2": {
           "value": "{gray-cool.5}",
           "type": "color"
         },
-        "__2x-light": {
-          "value": "{white}",
+        "__light-3": {
+          "value": "{gray-cool.3}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "__default": {
+          "value": "{cyan-vivid.40}",
+          "type": "color",
+          "description": "Secondary Brand color default"
+        },
+        "__light-1": {
+          "value": "{cyan-vivid.30}",
+          "type": "color"
+        },
+        "__dark": {
+          "value": "{cyan-vivid.60}",
+          "type": "color"
+        },
+        "__light-2": {
+          "value": "{cyan-vivid.10}",
+          "type": "color"
+        },
+        "__light-3": {
+          "value": "{cyan-vivid.5}",
           "type": "color"
         }
       }
@@ -416,6 +439,91 @@
         "value": "#4f172e",
         "type": "color"
       }
+    },
+    "background": {
+      "__default": {
+        "value": "{gray-cool.3}",
+        "type": "color",
+        "description": "The default background for a component or element that sets it apart from white."
+      },
+      "light-1": {
+        "value": "{gray-cool.2}",
+        "type": "color"
+      },
+      "light-2": {
+        "value": "{white}",
+        "type": "color"
+      },
+      "dark-1": {
+        "value": "{gray-cool.10}",
+        "type": "color"
+      },
+      "dark-2": {
+        "value": "{gray-cool.30}",
+        "type": "color"
+      },
+      "disabled": {
+        "__default": {
+          "value": "{brand.neutral.__light-1}",
+          "type": "color"
+        },
+        "__selected": {
+          "value": "{brand.neutral.__dark-1}",
+          "type": "color",
+          "description": "Background elements that show a selected state but are no longer interactive for the user"
+        },
+        "__not-selected": {
+          "value": "{background.disabled.__default}",
+          "type": "color",
+          "description": "Used when an item is part of a selectable set but is neither selected by the user or still interactive."
+        }
+      },
+      "interactive": {
+        "__default": {
+          "value": "{white}",
+          "type": "color",
+          "description": "The default background for interactive elements"
+        },
+        "__secondary": {
+          "value": "{brand.primary.__light-1}",
+          "type": "color",
+          "description": "Background color for interactive elements secondary in a group of items (e.g. a secondary button)"
+        }
+      }
+    },
+    "foreground": {
+      "interactive": {
+        "__default": {
+          "value": "{brand.primary.__default}",
+          "type": "color",
+          "description": "The default used within any interactive element."
+        },
+        "__hover": {
+          "value": "{brand.primary.__dark-1}",
+          "type": "color",
+          "description": "Used to indicate when an elemen tis interactive as the user hovers over it.\n"
+        },
+        "__selected": {
+          "value": "{brand.primary.__light-1}",
+          "type": "color",
+          "description": "Used when an item is currently selected, but remains interactive. "
+        }
+      },
+      "disabled": {
+        "__selected": {
+          "value": "{brand.neutral.__light-3}",
+          "type": "color",
+          "description": "For text and other foreground elements when an item is currently selected but is not interactive for the user. Similar to a disabled state. "
+        },
+        "__default": {
+          "value": "{white}",
+          "type": "color"
+        },
+        "__not-selected": {
+          "value": "{brand.neutral.__light-1}",
+          "type": "color"
+        }
+      }
     }
   },
   "$themes": [
@@ -454,14 +562,14 @@
         "brand.primary.__default": "S:16f1d8e604a8aff6c702d79d87141e6743816d00,",
         "brand.primary.__light-1": "S:d35a2d90b93efe3ac085f12f7092ff3d86b5ffe1,",
         "brand.neutral.__default": "S:ef75324c87fe94632ad29f051d0e6f2a44715df0,",
-        "brand.neutral.__dark": "S:3987195c01c13675b71af35a1f5f41062bfa435c,",
-        "brand.neutral.__light": "S:fb5bd2aab4592fb7199530e2f6ceeb0d86a4c76b,",
-        "brand.neutral.__x-light": "S:dbf0466ae64ec44eff4563cbcbf6fc2346460214,",
-        "brand.neutral.__2x-light": "S:054d8b64481eb8b399fbe91ed8145e4d398e0d6a,",
         "brand.primary.__dark-1": "S:d3d3d5d38a5b9fe097af7e41e707d6ce3e870464,",
         "brand.primary.__light-2": "S:bc8a7540b74edd195bded3349dd64b6cee48c820,",
         "brand.primary.__light-3": "S:9eef7bc65b5c88f5eefb19282c593def18d138e7,",
-        "brand.primary.__light-4": "S:80db26ff483471956ee194240ce89043206bb4d4,"
+        "brand.primary.__light-4": "S:80db26ff483471956ee194240ce89043206bb4d4,",
+        "brand.neutral.__dark-1": "S:3987195c01c13675b71af35a1f5f41062bfa435c,",
+        "brand.neutral.__light-1": "S:fb5bd2aab4592fb7199530e2f6ceeb0d86a4c76b,",
+        "brand.neutral.__light-2": "S:dbf0466ae64ec44eff4563cbcbf6fc2346460214,",
+        "brand.neutral.__light-3": "S:054d8b64481eb8b399fbe91ed8145e4d398e0d6a,"
       }
     }
   ],
