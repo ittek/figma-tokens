@@ -456,6 +456,10 @@
             "value": "{color.brand.primary.__light-1}",
             "type": "color",
             "description": "Background color for interactive elements secondary in a group of items (e.g. a secondary button)"
+          },
+          "selected": {
+            "value": "{color.brand.primary.__dark-1}",
+            "type": "color"
           }
         }
       },
@@ -472,7 +476,7 @@
             "description": "Used to indicate when an elemen tis interactive as the user hovers over it.\n"
           },
           "__selected": {
-            "value": "{color.brand.primary.__light-1}",
+            "value": "{color.white}",
             "type": "color",
             "description": "Used when an item is currently selected, but remains interactive. "
           }
