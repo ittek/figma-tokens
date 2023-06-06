@@ -527,6 +527,11 @@
       "spacing__2x-large": {
         "value": "{basesize} / 4 * 24",
         "type": "spacing"
+      },
+      "spacing__none": {
+        "value": "0px",
+        "type": "spacing",
+        "description": "For applying no space via token\n"
       }
     },
     "__default": {
