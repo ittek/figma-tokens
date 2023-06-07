@@ -498,11 +498,6 @@
         }
       }
     },
-    "basesize": {
-      "value": "16px",
-      "type": "dimension",
-      "description": "Base size for desktop\n"
-    },
     "spacing": {
       "spacing__default": {
         "value": "{basesize}",
@@ -537,6 +532,11 @@
         "value": "{basesize} / 4 * 48",
         "type": "spacing"
       }
+    },
+    "basesize": {
+      "value": "16px",
+      "type": "dimension",
+      "description": "Base size for desktop\n"
     },
     "__default": {
       "value": {
