@@ -532,6 +532,10 @@
         "value": "0px",
         "type": "spacing",
         "description": "For applying no space via token\n"
+      },
+      "spacing__3x-large": {
+        "value": "{basesize} / 4 * 48",
+        "type": "spacing"
       }
     },
     "__default": {
