@@ -512,15 +512,15 @@
         "type": "spacing"
       },
       "spacing__large": {
-        "value": "{basesize}/4*8",
+        "value": "{basesize}*2",
         "type": "spacing"
       },
       "spacing__x-large": {
-        "value": "{basesize}/4*16",
+        "value": "{basesize} * 4",
         "type": "spacing"
       },
       "spacing__2x-large": {
-        "value": "{basesize} / 4 * 24",
+        "value": "{basesize} * 6",
         "type": "spacing"
       },
       "spacing__none": {
