@@ -495,53 +495,57 @@
         }
       }
     },
-    "basesize": {
+    "base_unit": {
       "value": "16px",
       "type": "dimension",
       "description": "Base size for desktop\n"
     },
     "spacing": {
       "spacing__default": {
-        "value": "{basesize}",
+        "value": "{base_unit}",
         "type": "spacing"
       },
       "spacing__small": {
-        "value": "{basesize}/2",
+        "value": "{base_unit}/2",
         "type": "spacing"
       },
       "spacing__x-small": {
-        "value": "{basesize}/4",
+        "value": "{base_unit}/4",
         "type": "spacing"
       },
       "spacing__large": {
-        "value": "{basesize}/4*8",
+        "value": "{base_unit}/4*8",
         "type": "spacing"
       },
       "spacing__x-large": {
-        "value": "{basesize}/4*16",
+        "value": "{base_unit}/4*16",
         "type": "spacing"
       },
       "spacing__2x-large": {
-        "value": "{basesize} / 4 * 24",
+        "value": "{base_unit} / 4 * 24",
         "type": "spacing"
       }
     },
-    "__default": {
-      "value": {
-        "color": "{color.brand.neutral.__light-1}",
-        "width": "{default}",
-        "style": "solid"
+    "border": {
+      "default": {
+        "value": {
+          "color": "{color.brand.neutral.__light-1}",
+          "width": "{border.width.default}",
+          "style": "solid"
+        },
+        "type": "border"
       },
-      "type": "border"
-    },
-    "default": {
-      "value": "1px",
-      "type": "borderWidth",
-      "description": "Default border width\n"
-    },
-    "large": {
-      "value": "4px",
-      "type": "borderWidth"
+      "width": {
+        "default": {
+          "value": "1px",
+          "type": "borderWidth",
+          "description": "Default border width\n"
+        },
+        "large": {
+          "value": "4px",
+          "type": "borderWidth"
+        }
+      }
     }
   },
   "$themes": [
