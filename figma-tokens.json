@@ -111,7 +111,8 @@
           },
           "__light-1": {
             "value": "{color.blue-vivid.20}",
-            "type": "color"
+            "type": "color",
+            "description": "Light tint of primary brand color"
           },
           "__light-2": {
             "value": "{color.blue-vivid.10}",
@@ -456,10 +457,6 @@
             "value": "{color.brand.primary.__light-1}",
             "type": "color",
             "description": "Background color for interactive elements secondary in a group of items (e.g. a secondary button)"
-          },
-          "selected": {
-            "value": "{color.brand.primary.__dark-1}",
-            "type": "color"
           }
         }
       },
@@ -476,7 +473,7 @@
             "description": "Used to indicate when an elemen tis interactive as the user hovers over it.\n"
           },
           "__selected": {
-            "value": "{color.white}",
+            "value": "{color.brand.primary.__light-1}",
             "type": "color",
             "description": "Used when an item is currently selected, but remains interactive. "
           }
@@ -498,6 +495,11 @@
         }
       }
     },
+    "basesize": {
+      "value": "16px",
+      "type": "dimension",
+      "description": "Base size for desktop\n"
+    },
     "spacing": {
       "spacing__default": {
         "value": "{basesize}",
@@ -512,31 +514,17 @@
         "type": "spacing"
       },
       "spacing__large": {
-        "value": "{basesize}*2",
+        "value": "{basesize}/4*8",
         "type": "spacing"
       },
       "spacing__x-large": {
-        "value": "{basesize} * 4",
+        "value": "{basesize}/4*16",
         "type": "spacing"
       },
       "spacing__2x-large": {
-        "value": "{basesize} * 6",
-        "type": "spacing"
-      },
-      "spacing__none": {
-        "value": "0px",
-        "type": "spacing",
-        "description": "For applying no space via token\n"
-      },
-      "spacing__3x-large": {
-        "value": "{basesize} / 4 * 48",
+        "value": "{basesize} / 4 * 24",
         "type": "spacing"
       }
-    },
-    "basesize": {
-      "value": "16px",
-      "type": "dimension",
-      "description": "Base size for desktop\n"
     },
     "__default": {
       "value": {
