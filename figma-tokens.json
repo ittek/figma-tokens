@@ -531,35 +531,35 @@
       "description": "Base size for desktop\n"
     },
     "spacing": {
-      "spacing__default": {
+      "__default": {
         "value": "{base_unit}",
         "type": "spacing"
       },
-      "spacing__small": {
+      "__small": {
         "value": "{base_unit}/2",
         "type": "spacing"
       },
-      "spacing__x-small": {
+      "__x-small": {
         "value": "{base_unit}/4",
         "type": "spacing"
       },
-      "spacing__large": {
+      "__large": {
         "value": "{base_unit}/4*8",
         "type": "spacing"
       },
-      "spacing__x-large": {
+      "__x-large": {
         "value": "{base_unit}/4*16",
         "type": "spacing"
       },
-      "spacing__2x-large": {
+      "__2x-large": {
         "value": "{base_unit} / 4 * 24",
         "type": "spacing"
       },
-      "spacing__3x-large": {
+      "__3x-large": {
         "value": "{base_unit}  * 12",
         "type": "spacing"
       },
-      "spacing__none": {
+      "__none": {
         "value": "0px",
         "type": "spacing"
       }
