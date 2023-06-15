@@ -1,49 +1,53 @@
 {
   "spire": {
-    "color": {
-      "blue-vivid": {
-        "2": {
-          "value": "#F5FBFF",
-          "type": "color"
-        },
-        "5": {
-          "value": "#E8F5FF",
-          "type": "color"
-        },
-        "10": {
-          "value": "#CFE8FF",
-          "type": "color"
-        },
-        "20": {
-          "value": "#A1D3FF",
-          "type": "color"
-        },
-        "30": {
-          "value": "#58B4FF",
-          "type": "color"
-        },
-        "40": {
-          "value": "#2491FF",
-          "type": "color"
-        },
-        "50": {
-          "value": "#0069D2",
-          "type": "color"
-        },
-        "60": {
-          "value": "#0251A1",
-          "type": "color"
-        },
-        "70": {
-          "value": "#013B76",
-          "type": "color"
-        },
-        "80": {
-          "value": "#012B56",
-          "type": "color",
-          "description": "Blue-vivid-80 from USWDS"
+    "token": {
+      "color": {
+        "blue-vivid": {
+          "2": {
+            "value": "#F5FBFF",
+            "type": "color"
+          },
+          "5": {
+            "value": "#E8F5FF",
+            "type": "color"
+          },
+          "10": {
+            "value": "#CFE8FF",
+            "type": "color"
+          },
+          "20": {
+            "value": "#A1D3FF",
+            "type": "color"
+          },
+          "30": {
+            "value": "#58B4FF",
+            "type": "color"
+          },
+          "40": {
+            "value": "#2491FF",
+            "type": "color"
+          },
+          "50": {
+            "value": "#0069D2",
+            "type": "color"
+          },
+          "60": {
+            "value": "#0251A1",
+            "type": "color"
+          },
+          "70": {
+            "value": "#013B76",
+            "type": "color"
+          },
+          "80": {
+            "value": "#012B56",
+            "type": "color",
+            "description": "Blue-vivid-80 from USWDS"
+          }
         }
-      },
+      }
+    },
+    "color": {
       "gray-cool": {
         "1": {
           "value": "#FBFCFD",
@@ -109,21 +113,21 @@
             "type": "color"
           },
           "__default": {
-            "value": "{color.blue-vivid.50}",
+            "value": "{token.color.blue-vivid.50}",
             "type": "color",
             "description": "The primary brand color in its default shade."
           },
           "__light-1": {
-            "value": "{color.blue-vivid.20}",
+            "value": "{token.color.blue-vivid.20}",
             "type": "color",
             "description": "Light tint of primary brand color"
           },
           "__light-2": {
-            "value": "{color.blue-vivid.10}",
+            "value": "{token.color.blue-vivid.10}",
             "type": "color"
           },
           "__light-3": {
-            "value": "{color.blue-vivid.5}",
+            "value": "{token.color.blue-vivid.5}",
             "type": "color"
           },
           "__light-4": {
@@ -554,6 +558,10 @@
       "spacing__3x-large": {
         "value": "{base_unit}  * 12",
         "type": "spacing"
+      },
+      "spacing__none": {
+        "value": "0px",
+        "type": "spacing"
       }
     },
     "border": {
@@ -576,10 +584,6 @@
           "type": "borderWidth"
         }
       }
-    },
-    "spacing__none": {
-      "value": "0px",
-      "type": "spacing"
     }
   },
   "$themes": [
