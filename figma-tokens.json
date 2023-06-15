@@ -465,7 +465,7 @@
         },
         "interactive": {
           "__default": {
-            "value": "{token.color.white}",
+            "value": "{token.color.brand.primary.__default}",
             "type": "color",
             "description": "The default background for interactive elements"
           },
@@ -473,6 +473,10 @@
             "value": "{token.color.brand.primary.__light-1}",
             "type": "color",
             "description": "Background color for interactive elements secondary in a group of items (e.g. a secondary button)"
+          },
+          "__light-1": {
+            "value": "{token.color.blue-vivid.40}",
+            "type": "color"
           }
         },
         "success": {
@@ -493,7 +497,7 @@
       "foreground": {
         "interactive": {
           "__default": {
-            "value": "{token.color.brand.primary.__default}",
+            "value": "{token.color.brand.primary.__light-4}",
             "type": "color",
             "description": "The default used within any interactive element."
           },
@@ -503,7 +507,7 @@
             "description": "Used to indicate when an elemen tis interactive as the user hovers over it.\n"
           },
           "__selected": {
-            "value": "{token.color.brand.primary.__light-1}",
+            "value": "{token.color.brand.primary.__light-4}",
             "type": "color",
             "description": "Used when an item is currently selected, but remains interactive. "
           }
