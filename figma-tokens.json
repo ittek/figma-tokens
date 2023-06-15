@@ -104,6 +104,10 @@
       },
       "brand": {
         "primary": {
+          "__dark-1": {
+            "value": "{color.blue-warm.70}",
+            "type": "color"
+          },
           "__default": {
             "value": "{color.blue-vivid.50}",
             "type": "color",
@@ -122,12 +126,16 @@
             "value": "{color.blue-vivid.5}",
             "type": "color"
           },
-          "__dark-1": {
-            "value": "{color.blue-warm.70}",
+          "__light-4": {
+            "value": "{color.white}",
             "type": "color"
           }
         },
         "neutral": {
+          "__dark-1": {
+            "value": "{color.gray-cool.70}",
+            "type": "color"
+          },
           "__default": {
             "value": "{color.gray-cool.50}",
             "type": "color"
@@ -144,8 +152,8 @@
             "value": "{color.gray-cool.3}",
             "type": "color"
           },
-          "__dark-1": {
-            "value": "{color.gray-cool.70}",
+          "__light-4": {
+            "value": "{color.white}",
             "type": "color"
           }
         },
@@ -155,20 +163,24 @@
             "type": "color",
             "description": "Secondary Brand color default"
           },
-          "__light-2": {
-            "value": "{color.cyan-vivid.10}",
+          "__dark": {
+            "value": "{color.cyan-vivid.60}",
             "type": "color"
           },
           "__light-1": {
             "value": "{color.cyan-vivid.30}",
             "type": "color"
           },
+          "__light-2": {
+            "value": "{color.cyan-vivid.10}",
+            "type": "color"
+          },
           "__light-3": {
             "value": "{color.cyan-vivid.5}",
             "type": "color"
           },
-          "__dark": {
-            "value": "{color.cyan-vivid.60}",
+          "__light-4": {
+            "value": "{color.white}",
             "type": "color"
           }
         }
@@ -410,6 +422,14 @@
         }
       },
       "background": {
+        "dark-2": {
+          "value": "{color.gray-cool.30}",
+          "type": "color"
+        },
+        "dark-1": {
+          "value": "{color.gray-cool.10}",
+          "type": "color"
+        },
         "__default": {
           "value": "{color.gray-cool.3}",
           "type": "color",
@@ -421,14 +441,6 @@
         },
         "light-2": {
           "value": "{color.white}",
-          "type": "color"
-        },
-        "dark-1": {
-          "value": "{color.gray-cool.10}",
-          "type": "color"
-        },
-        "dark-2": {
-          "value": "{color.gray-cool.30}",
           "type": "color"
         },
         "disabled": {
@@ -457,6 +469,20 @@
             "value": "{color.brand.primary.__light-1}",
             "type": "color",
             "description": "Background color for interactive elements secondary in a group of items (e.g. a secondary button)"
+          }
+        },
+        "success": {
+          "__default": {
+            "value": "{color.mint-cool-vivid.40}",
+            "type": "color"
+          },
+          "__light-1": {
+            "value": "{color.mint-cool-vivid.10}",
+            "type": "color"
+          },
+          "__dark-1": {
+            "value": "{color.mint-cool-vivid.70}",
+            "type": "color"
           }
         }
       },
