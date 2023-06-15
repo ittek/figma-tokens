@@ -424,105 +424,103 @@
         }
       }
     },
-    "semantic": {
-      "color": {
-        "background": {
-          "dark-2": {
-            "value": "{token.color.gray-cool.30}",
+    "color": {
+      "background": {
+        "dark-2": {
+          "value": "{token.color.gray-cool.30}",
+          "type": "color"
+        },
+        "dark-1": {
+          "value": "{token.color.gray-cool.10}",
+          "type": "color"
+        },
+        "__default": {
+          "value": "{token.color.gray-cool.3}",
+          "type": "color",
+          "description": "The default background for a component or element that sets it apart from white."
+        },
+        "light-1": {
+          "value": "{token.color.gray-cool.2}",
+          "type": "color"
+        },
+        "light-2": {
+          "value": "{token.color.white}",
+          "type": "color"
+        },
+        "disabled": {
+          "__default": {
+            "value": "{token.color.brand.neutral.__light-1}",
             "type": "color"
           },
-          "dark-1": {
-            "value": "{token.color.gray-cool.10}",
+          "__selected": {
+            "value": "{token.color.brand.neutral.__dark-1}",
+            "type": "color",
+            "description": "Background elements that show a selected state but are no longer interactive for the user"
+          },
+          "__not-selected": {
+            "value": "{color.background.disabled.__default}",
+            "type": "color",
+            "description": "Used when an item is part of a selectable set but is neither selected by the user or still interactive."
+          }
+        },
+        "interactive": {
+          "__default": {
+            "value": "{token.color.white}",
+            "type": "color",
+            "description": "The default background for interactive elements"
+          },
+          "__secondary": {
+            "value": "{token.color.brand.primary.__light-1}",
+            "type": "color",
+            "description": "Background color for interactive elements secondary in a group of items (e.g. a secondary button)"
+          }
+        },
+        "success": {
+          "__default": {
+            "value": "{token.color.mint-cool-vivid.40}",
             "type": "color"
+          },
+          "__light-1": {
+            "value": "{token.color.mint-cool-vivid.10}",
+            "type": "color"
+          },
+          "__dark-1": {
+            "value": "{token.color.mint-cool-vivid.70}",
+            "type": "color"
+          }
+        }
+      },
+      "foreground": {
+        "interactive": {
+          "__default": {
+            "value": "{token.color.brand.primary.__default}",
+            "type": "color",
+            "description": "The default used within any interactive element."
+          },
+          "__hover": {
+            "value": "{token.color.brand.primary.__dark-1}",
+            "type": "color",
+            "description": "Used to indicate when an elemen tis interactive as the user hovers over it.\n"
+          },
+          "__selected": {
+            "value": "{token.color.brand.primary.__light-1}",
+            "type": "color",
+            "description": "Used when an item is currently selected, but remains interactive. "
+          }
+        },
+        "disabled": {
+          "__selected": {
+            "value": "{token.color.brand.neutral.__light-3}",
+            "type": "color",
+            "description": "For text and other foreground elements when an item is currently selected but is not interactive for the user. Similar to a disabled state. "
           },
           "__default": {
-            "value": "{token.color.gray-cool.3}",
-            "type": "color",
-            "description": "The default background for a component or element that sets it apart from white."
-          },
-          "light-1": {
-            "value": "{token.color.gray-cool.2}",
-            "type": "color"
-          },
-          "light-2": {
             "value": "{token.color.white}",
             "type": "color"
           },
-          "disabled": {
-            "__default": {
-              "value": "{token.color.brand.neutral.__light-1}",
-              "type": "color"
-            },
-            "__selected": {
-              "value": "{token.color.brand.neutral.__dark-1}",
-              "type": "color",
-              "description": "Background elements that show a selected state but are no longer interactive for the user"
-            },
-            "__not-selected": {
-              "value": "{semantic.color.background.disabled.__default}",
-              "type": "color",
-              "description": "Used when an item is part of a selectable set but is neither selected by the user or still interactive."
-            }
-          },
-          "interactive": {
-            "__default": {
-              "value": "{token.color.white}",
-              "type": "color",
-              "description": "The default background for interactive elements"
-            },
-            "__secondary": {
-              "value": "{token.color.brand.primary.__light-1}",
-              "type": "color",
-              "description": "Background color for interactive elements secondary in a group of items (e.g. a secondary button)"
-            }
-          },
-          "success": {
-            "__default": {
-              "value": "{token.color.mint-cool-vivid.40}",
-              "type": "color"
-            },
-            "__light-1": {
-              "value": "{token.color.mint-cool-vivid.10}",
-              "type": "color"
-            },
-            "__dark-1": {
-              "value": "{token.color.mint-cool-vivid.70}",
-              "type": "color"
-            }
-          }
-        },
-        "foreground": {
-          "interactive": {
-            "__default": {
-              "value": "{token.color.brand.primary.__default}",
-              "type": "color",
-              "description": "The default used within any interactive element."
-            },
-            "__hover": {
-              "value": "{token.color.brand.primary.__dark-1}",
-              "type": "color",
-              "description": "Used to indicate when an elemen tis interactive as the user hovers over it.\n"
-            },
-            "__selected": {
-              "value": "{token.color.brand.primary.__light-1}",
-              "type": "color",
-              "description": "Used when an item is currently selected, but remains interactive. "
-            }
-          },
-          "disabled": {
-            "__selected": {
-              "value": "{token.color.brand.neutral.__light-3}",
-              "type": "color",
-              "description": "For text and other foreground elements when an item is currently selected but is not interactive for the user. Similar to a disabled state. "
-            },
-            "__default": {
-              "value": "{token.color.white}",
-              "type": "color"
-            },
-            "__not-selected": {
-              "value": "{token.color.brand.neutral.__light-1}",
-              "type": "color"
-            }
+          "__not-selected": {
+            "value": "{token.color.brand.neutral.__light-1}",
+            "type": "color"
           }
         }
       }
