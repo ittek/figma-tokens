@@ -496,7 +496,7 @@
       }
     },
     "base_unit": {
-      "value": "16px",
+      "value": "1rem",
       "type": "dimension",
       "description": "Base size for desktop\n"
     },
@@ -524,6 +524,10 @@
       "spacing__2x-large": {
         "value": "{base_unit} / 4 * 24",
         "type": "spacing"
+      },
+      "spacing__3x-large": {
+        "value": "{base_unit}  * 12",
+        "type": "spacing"
       }
     },
     "border": {
@@ -546,6 +550,10 @@
           "type": "borderWidth"
         }
       }
+    },
+    "spacing__none": {
+      "value": "0px",
+      "type": "spacing"
     }
   },
   "$themes": [
