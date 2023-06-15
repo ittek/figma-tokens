@@ -44,483 +44,485 @@
             "type": "color",
             "description": "Blue-vivid-80 from USWDS"
           }
+        },
+        "gray-cool": {
+          "1": {
+            "value": "#FBFCFD",
+            "type": "color"
+          },
+          "2": {
+            "value": "#F7F9FA",
+            "type": "color"
+          },
+          "3": {
+            "value": "#F5F6F7",
+            "type": "color"
+          },
+          "4": {
+            "value": "#F1F3F6",
+            "type": "color"
+          },
+          "5": {
+            "value": "#EDEFF0",
+            "type": "color"
+          },
+          "10": {
+            "value": "#DFE1E2",
+            "type": "color"
+          },
+          "20": {
+            "value": "#C6CACE",
+            "type": "color"
+          },
+          "30": {
+            "value": "#A9AEB1",
+            "type": "color"
+          },
+          "40": {
+            "value": "#8D9297",
+            "type": "color"
+          },
+          "50": {
+            "value": "#71767A",
+            "type": "color"
+          },
+          "60": {
+            "value": "#565C65",
+            "type": "color"
+          },
+          "70": {
+            "value": "#3D4551",
+            "type": "color"
+          },
+          "80": {
+            "value": "#2D2E2F",
+            "type": "color"
+          },
+          "90": {
+            "value": "#1C1D1F",
+            "type": "color"
+          }
+        },
+        "brand": {
+          "primary": {
+            "__dark-1": {
+              "value": "{token.color.blue-warm.70}",
+              "type": "color"
+            },
+            "__default": {
+              "value": "{token.color.blue-vivid.50}",
+              "type": "color",
+              "description": "The primary brand color in its default shade."
+            },
+            "__light-1": {
+              "value": "{token.color.blue-vivid.20}",
+              "type": "color",
+              "description": "Light tint of primary brand color"
+            },
+            "__light-2": {
+              "value": "{token.color.blue-vivid.10}",
+              "type": "color"
+            },
+            "__light-3": {
+              "value": "{token.color.blue-vivid.5}",
+              "type": "color"
+            },
+            "__light-4": {
+              "value": "{token.color.white}",
+              "type": "color"
+            }
+          },
+          "neutral": {
+            "__dark-1": {
+              "value": "{token.color.gray-cool.70}",
+              "type": "color"
+            },
+            "__default": {
+              "value": "{token.color.gray-cool.50}",
+              "type": "color"
+            },
+            "__light-1": {
+              "value": "{token.color.gray-cool.20}",
+              "type": "color"
+            },
+            "__light-2": {
+              "value": "{token.color.gray-cool.5}",
+              "type": "color"
+            },
+            "__light-3": {
+              "value": "{token.color.gray-cool.3}",
+              "type": "color"
+            },
+            "__light-4": {
+              "value": "{token.color.white}",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "__default": {
+              "value": "{token.color.cyan-vivid.40}",
+              "type": "color",
+              "description": "Secondary Brand color default"
+            },
+            "__dark": {
+              "value": "{token.color.cyan-vivid.60}",
+              "type": "color"
+            },
+            "__light-1": {
+              "value": "{token.color.cyan-vivid.30}",
+              "type": "color"
+            },
+            "__light-2": {
+              "value": "{token.color.cyan-vivid.10}",
+              "type": "color"
+            },
+            "__light-3": {
+              "value": "{token.color.cyan-vivid.5}",
+              "type": "color"
+            },
+            "__light-4": {
+              "value": "{token.color.white}",
+              "type": "color"
+            }
+          }
+        },
+        "black": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "white": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "blue-warm": {
+          "5": {
+            "value": "#e8ecff",
+            "type": "color"
+          },
+          "10": {
+            "value": "#cfddff",
+            "type": "color"
+          },
+          "20": {
+            "value": "#a1c2ff",
+            "type": "color"
+          },
+          "30": {
+            "value": "#5887ff",
+            "type": "color"
+          },
+          "40": {
+            "value": "#243eff",
+            "type": "color"
+          },
+          "50": {
+            "value": "#0012d2",
+            "type": "color"
+          },
+          "60": {
+            "value": "#021fa1",
+            "type": "color"
+          },
+          "70": {
+            "value": "#030f93",
+            "type": "color"
+          },
+          "80": {
+            "value": "#010b56",
+            "type": "color"
+          }
+        },
+        "mint-cool-vivid": {
+          "5": {
+            "value": "#F4FEED",
+            "type": "color"
+          },
+          "10": {
+            "value": "#e7fec2",
+            "type": "color"
+          },
+          "20": {
+            "value": "#C5EE84",
+            "type": "color"
+          },
+          "30": {
+            "value": "#A6D35D",
+            "type": "color"
+          },
+          "40": {
+            "value": "#85C123",
+            "type": "color"
+          },
+          "50": {
+            "value": "#6da118",
+            "type": "color"
+          },
+          "60": {
+            "value": "#578211",
+            "type": "color"
+          },
+          "70": {
+            "value": "#43650c",
+            "type": "color"
+          },
+          "80": {
+            "value": "#253807",
+            "type": "color"
+          }
+        },
+        "cyan-vivid": {
+          "5": {
+            "value": "#e5faff",
+            "type": "color"
+          },
+          "10": {
+            "value": "#a8f2ff",
+            "type": "color"
+          },
+          "20": {
+            "value": "#52daf2",
+            "type": "color"
+          },
+          "30": {
+            "value": "#00bde3",
+            "type": "color"
+          },
+          "40": {
+            "value": "#009bc2",
+            "type": "color"
+          },
+          "50": {
+            "value": "#0081a1",
+            "type": "color"
+          },
+          "60": {
+            "value": "#00687d",
+            "type": "color"
+          },
+          "70": {
+            "value": "#0e4f5c",
+            "type": "color"
+          },
+          "80": {
+            "value": "#093b44",
+            "type": "color"
+          }
+        },
+        "gold-vivid": {
+          "5": {
+            "value": "#fef0c8",
+            "type": "color"
+          },
+          "10": {
+            "value": "#ffe396",
+            "type": "color"
+          },
+          "20": {
+            "value": "#ffbe2e",
+            "type": "color"
+          },
+          "30": {
+            "value": "#e5a000",
+            "type": "color"
+          },
+          "40": {
+            "value": "#c2850c",
+            "type": "color"
+          },
+          "50": {
+            "value": "#936f38",
+            "type": "color"
+          },
+          "60": {
+            "value": "#7a591a",
+            "type": "color"
+          },
+          "70": {
+            "value": "#5c410a",
+            "type": "color"
+          },
+          "80": {
+            "value": "#3b2b15",
+            "type": "color"
+          }
+        },
+        "orange-vivid": {
+          "5": {
+            "value": "#fef2e4",
+            "type": "color"
+          },
+          "10": {
+            "value": "#fce2c5",
+            "type": "color"
+          },
+          "20": {
+            "value": "#ffbc78",
+            "type": "color"
+          },
+          "30": {
+            "value": "#fa9441",
+            "type": "color"
+          },
+          "40": {
+            "value": "#e66f0e",
+            "type": "color"
+          },
+          "50": {
+            "value": "#c05600",
+            "type": "color"
+          },
+          "60": {
+            "value": "#8c471c",
+            "type": "color"
+          },
+          "70": {
+            "value": "#5f3617",
+            "type": "color"
+          },
+          "80": {
+            "value": "#352313",
+            "type": "color"
+          }
+        },
+        "magenta-vivid": {
+          "5": {
+            "value": "#fff2f5",
+            "type": "color"
+          },
+          "10": {
+            "value": "#ffddea",
+            "type": "color"
+          },
+          "20": {
+            "value": "#ffb4cf",
+            "type": "color"
+          },
+          "30": {
+            "value": "#ff87b2",
+            "type": "color"
+          },
+          "40": {
+            "value": "#fd4496",
+            "type": "color"
+          },
+          "50": {
+            "value": "#d72d79",
+            "type": "color"
+          },
+          "60": {
+            "value": "#ab2165",
+            "type": "color"
+          },
+          "70": {
+            "value": "#731f44",
+            "type": "color"
+          },
+          "80": {
+            "value": "#4f172e",
+            "type": "color"
+          }
         }
       }
     },
-    "color": {
-      "gray-cool": {
-        "1": {
-          "value": "#FBFCFD",
-          "type": "color"
-        },
-        "2": {
-          "value": "#F7F9FA",
-          "type": "color"
-        },
-        "3": {
-          "value": "#F5F6F7",
-          "type": "color"
-        },
-        "4": {
-          "value": "#F1F3F6",
-          "type": "color"
-        },
-        "5": {
-          "value": "#EDEFF0",
-          "type": "color"
-        },
-        "10": {
-          "value": "#DFE1E2",
-          "type": "color"
-        },
-        "20": {
-          "value": "#C6CACE",
-          "type": "color"
-        },
-        "30": {
-          "value": "#A9AEB1",
-          "type": "color"
-        },
-        "40": {
-          "value": "#8D9297",
-          "type": "color"
-        },
-        "50": {
-          "value": "#71767A",
-          "type": "color"
-        },
-        "60": {
-          "value": "#565C65",
-          "type": "color"
-        },
-        "70": {
-          "value": "#3D4551",
-          "type": "color"
-        },
-        "80": {
-          "value": "#2D2E2F",
-          "type": "color"
-        },
-        "90": {
-          "value": "#1C1D1F",
-          "type": "color"
-        }
-      },
-      "brand": {
-        "primary": {
-          "__dark-1": {
-            "value": "{color.blue-warm.70}",
+    "semantic": {
+      "color": {
+        "background": {
+          "dark-2": {
+            "value": "{token.color.gray-cool.30}",
+            "type": "color"
+          },
+          "dark-1": {
+            "value": "{token.color.gray-cool.10}",
             "type": "color"
           },
           "__default": {
-            "value": "{token.color.blue-vivid.50}",
+            "value": "{token.color.gray-cool.3}",
             "type": "color",
-            "description": "The primary brand color in its default shade."
+            "description": "The default background for a component or element that sets it apart from white."
           },
-          "__light-1": {
-            "value": "{token.color.blue-vivid.20}",
-            "type": "color",
-            "description": "Light tint of primary brand color"
-          },
-          "__light-2": {
-            "value": "{token.color.blue-vivid.10}",
+          "light-1": {
+            "value": "{token.color.gray-cool.2}",
             "type": "color"
           },
-          "__light-3": {
-            "value": "{token.color.blue-vivid.5}",
+          "light-2": {
+            "value": "{token.color.white}",
             "type": "color"
           },
-          "__light-4": {
-            "value": "{color.white}",
-            "type": "color"
+          "disabled": {
+            "__default": {
+              "value": "{token.color.brand.neutral.__light-1}",
+              "type": "color"
+            },
+            "__selected": {
+              "value": "{token.color.brand.neutral.__dark-1}",
+              "type": "color",
+              "description": "Background elements that show a selected state but are no longer interactive for the user"
+            },
+            "__not-selected": {
+              "value": "{semantic.color.background.disabled.__default}",
+              "type": "color",
+              "description": "Used when an item is part of a selectable set but is neither selected by the user or still interactive."
+            }
+          },
+          "interactive": {
+            "__default": {
+              "value": "{token.color.white}",
+              "type": "color",
+              "description": "The default background for interactive elements"
+            },
+            "__secondary": {
+              "value": "{token.color.brand.primary.__light-1}",
+              "type": "color",
+              "description": "Background color for interactive elements secondary in a group of items (e.g. a secondary button)"
+            }
+          },
+          "success": {
+            "__default": {
+              "value": "{token.color.mint-cool-vivid.40}",
+              "type": "color"
+            },
+            "__light-1": {
+              "value": "{token.color.mint-cool-vivid.10}",
+              "type": "color"
+            },
+            "__dark-1": {
+              "value": "{token.color.mint-cool-vivid.70}",
+              "type": "color"
+            }
           }
         },
-        "neutral": {
-          "__dark-1": {
-            "value": "{color.gray-cool.70}",
-            "type": "color"
+        "foreground": {
+          "interactive": {
+            "__default": {
+              "value": "{token.color.brand.primary.__default}",
+              "type": "color",
+              "description": "The default used within any interactive element."
+            },
+            "__hover": {
+              "value": "{token.color.brand.primary.__dark-1}",
+              "type": "color",
+              "description": "Used to indicate when an elemen tis interactive as the user hovers over it.\n"
+            },
+            "__selected": {
+              "value": "{token.color.brand.primary.__light-1}",
+              "type": "color",
+              "description": "Used when an item is currently selected, but remains interactive. "
+            }
           },
-          "__default": {
-            "value": "{color.gray-cool.50}",
-            "type": "color"
-          },
-          "__light-1": {
-            "value": "{color.gray-cool.20}",
-            "type": "color"
-          },
-          "__light-2": {
-            "value": "{color.gray-cool.5}",
-            "type": "color"
-          },
-          "__light-3": {
-            "value": "{color.gray-cool.3}",
-            "type": "color"
-          },
-          "__light-4": {
-            "value": "{color.white}",
-            "type": "color"
-          }
-        },
-        "secondary": {
-          "__default": {
-            "value": "{color.cyan-vivid.40}",
-            "type": "color",
-            "description": "Secondary Brand color default"
-          },
-          "__dark": {
-            "value": "{color.cyan-vivid.60}",
-            "type": "color"
-          },
-          "__light-1": {
-            "value": "{color.cyan-vivid.30}",
-            "type": "color"
-          },
-          "__light-2": {
-            "value": "{color.cyan-vivid.10}",
-            "type": "color"
-          },
-          "__light-3": {
-            "value": "{color.cyan-vivid.5}",
-            "type": "color"
-          },
-          "__light-4": {
-            "value": "{color.white}",
-            "type": "color"
-          }
-        }
-      },
-      "black": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "white": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "blue-warm": {
-        "5": {
-          "value": "#e8ecff",
-          "type": "color"
-        },
-        "10": {
-          "value": "#cfddff",
-          "type": "color"
-        },
-        "20": {
-          "value": "#a1c2ff",
-          "type": "color"
-        },
-        "30": {
-          "value": "#5887ff",
-          "type": "color"
-        },
-        "40": {
-          "value": "#243eff",
-          "type": "color"
-        },
-        "50": {
-          "value": "#0012d2",
-          "type": "color"
-        },
-        "60": {
-          "value": "#021fa1",
-          "type": "color"
-        },
-        "70": {
-          "value": "#030f93",
-          "type": "color"
-        },
-        "80": {
-          "value": "#010b56",
-          "type": "color"
-        }
-      },
-      "mint-cool-vivid": {
-        "5": {
-          "value": "#F4FEED",
-          "type": "color"
-        },
-        "10": {
-          "value": "#e7fec2",
-          "type": "color"
-        },
-        "20": {
-          "value": "#C5EE84",
-          "type": "color"
-        },
-        "30": {
-          "value": "#A6D35D",
-          "type": "color"
-        },
-        "40": {
-          "value": "#85C123",
-          "type": "color"
-        },
-        "50": {
-          "value": "#6da118",
-          "type": "color"
-        },
-        "60": {
-          "value": "#578211",
-          "type": "color"
-        },
-        "70": {
-          "value": "#43650c",
-          "type": "color"
-        },
-        "80": {
-          "value": "#253807",
-          "type": "color"
-        }
-      },
-      "cyan-vivid": {
-        "5": {
-          "value": "#e5faff",
-          "type": "color"
-        },
-        "10": {
-          "value": "#a8f2ff",
-          "type": "color"
-        },
-        "20": {
-          "value": "#52daf2",
-          "type": "color"
-        },
-        "30": {
-          "value": "#00bde3",
-          "type": "color"
-        },
-        "40": {
-          "value": "#009bc2",
-          "type": "color"
-        },
-        "50": {
-          "value": "#0081a1",
-          "type": "color"
-        },
-        "60": {
-          "value": "#00687d",
-          "type": "color"
-        },
-        "70": {
-          "value": "#0e4f5c",
-          "type": "color"
-        },
-        "80": {
-          "value": "#093b44",
-          "type": "color"
-        }
-      },
-      "gold-vivid": {
-        "5": {
-          "value": "#fef0c8",
-          "type": "color"
-        },
-        "10": {
-          "value": "#ffe396",
-          "type": "color"
-        },
-        "20": {
-          "value": "#ffbe2e",
-          "type": "color"
-        },
-        "30": {
-          "value": "#e5a000",
-          "type": "color"
-        },
-        "40": {
-          "value": "#c2850c",
-          "type": "color"
-        },
-        "50": {
-          "value": "#936f38",
-          "type": "color"
-        },
-        "60": {
-          "value": "#7a591a",
-          "type": "color"
-        },
-        "70": {
-          "value": "#5c410a",
-          "type": "color"
-        },
-        "80": {
-          "value": "#3b2b15",
-          "type": "color"
-        }
-      },
-      "orange-vivid": {
-        "5": {
-          "value": "#fef2e4",
-          "type": "color"
-        },
-        "10": {
-          "value": "#fce2c5",
-          "type": "color"
-        },
-        "20": {
-          "value": "#ffbc78",
-          "type": "color"
-        },
-        "30": {
-          "value": "#fa9441",
-          "type": "color"
-        },
-        "40": {
-          "value": "#e66f0e",
-          "type": "color"
-        },
-        "50": {
-          "value": "#c05600",
-          "type": "color"
-        },
-        "60": {
-          "value": "#8c471c",
-          "type": "color"
-        },
-        "70": {
-          "value": "#5f3617",
-          "type": "color"
-        },
-        "80": {
-          "value": "#352313",
-          "type": "color"
-        }
-      },
-      "magenta-vivid": {
-        "5": {
-          "value": "#fff2f5",
-          "type": "color"
-        },
-        "10": {
-          "value": "#ffddea",
-          "type": "color"
-        },
-        "20": {
-          "value": "#ffb4cf",
-          "type": "color"
-        },
-        "30": {
-          "value": "#ff87b2",
-          "type": "color"
-        },
-        "40": {
-          "value": "#fd4496",
-          "type": "color"
-        },
-        "50": {
-          "value": "#d72d79",
-          "type": "color"
-        },
-        "60": {
-          "value": "#ab2165",
-          "type": "color"
-        },
-        "70": {
-          "value": "#731f44",
-          "type": "color"
-        },
-        "80": {
-          "value": "#4f172e",
-          "type": "color"
-        }
-      },
-      "background": {
-        "dark-2": {
-          "value": "{color.gray-cool.30}",
-          "type": "color"
-        },
-        "dark-1": {
-          "value": "{color.gray-cool.10}",
-          "type": "color"
-        },
-        "__default": {
-          "value": "{color.gray-cool.3}",
-          "type": "color",
-          "description": "The default background for a component or element that sets it apart from white."
-        },
-        "light-1": {
-          "value": "{color.gray-cool.2}",
-          "type": "color"
-        },
-        "light-2": {
-          "value": "{color.white}",
-          "type": "color"
-        },
-        "disabled": {
-          "__default": {
-            "value": "{color.brand.neutral.__light-1}",
-            "type": "color"
-          },
-          "__selected": {
-            "value": "{color.brand.neutral.__dark-1}",
-            "type": "color",
-            "description": "Background elements that show a selected state but are no longer interactive for the user"
-          },
-          "__not-selected": {
-            "value": "{color.background.disabled.__default}",
-            "type": "color",
-            "description": "Used when an item is part of a selectable set but is neither selected by the user or still interactive."
-          }
-        },
-        "interactive": {
-          "__default": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "The default background for interactive elements"
-          },
-          "__secondary": {
-            "value": "{color.brand.primary.__light-1}",
-            "type": "color",
-            "description": "Background color for interactive elements secondary in a group of items (e.g. a secondary button)"
-          }
-        },
-        "success": {
-          "__default": {
-            "value": "{color.mint-cool-vivid.40}",
-            "type": "color"
-          },
-          "__light-1": {
-            "value": "{color.mint-cool-vivid.10}",
-            "type": "color"
-          },
-          "__dark-1": {
-            "value": "{color.mint-cool-vivid.70}",
-            "type": "color"
-          }
-        }
-      },
-      "foreground": {
-        "interactive": {
-          "__default": {
-            "value": "{color.brand.primary.__default}",
-            "type": "color",
-            "description": "The default used within any interactive element."
-          },
-          "__hover": {
-            "value": "{color.brand.primary.__dark-1}",
-            "type": "color",
-            "description": "Used to indicate when an elemen tis interactive as the user hovers over it.\n"
-          },
-          "__selected": {
-            "value": "{color.brand.primary.__light-1}",
-            "type": "color",
-            "description": "Used when an item is currently selected, but remains interactive. "
-          }
-        },
-        "disabled": {
-          "__selected": {
-            "value": "{color.brand.neutral.__light-3}",
-            "type": "color",
-            "description": "For text and other foreground elements when an item is currently selected but is not interactive for the user. Similar to a disabled state. "
-          },
-          "__default": {
-            "value": "{color.white}",
-            "type": "color"
-          },
-          "__not-selected": {
-            "value": "{color.brand.neutral.__light-1}",
-            "type": "color"
+          "disabled": {
+            "__selected": {
+              "value": "{token.color.brand.neutral.__light-3}",
+              "type": "color",
+              "description": "For text and other foreground elements when an item is currently selected but is not interactive for the user. Similar to a disabled state. "
+            },
+            "__default": {
+              "value": "{token.color.white}",
+              "type": "color"
+            },
+            "__not-selected": {
+              "value": "{token.color.brand.neutral.__light-1}",
+              "type": "color"
+            }
           }
         }
       }
@@ -567,7 +569,7 @@
     "border": {
       "default": {
         "value": {
-          "color": "{color.brand.neutral.__light-1}",
+          "color": "{token.color.brand.neutral.__light-1}",
           "width": "{border.width.default}",
           "style": "solid"
         },
@@ -628,7 +630,7 @@
         "brand.neutral.__light-2": "S:dbf0466ae64ec44eff4563cbcbf6fc2346460214,",
         "brand.neutral.__light-3": "S:054d8b64481eb8b399fbe91ed8145e4d398e0d6a,",
         "brand.primary.__default": "S:16f1d8e604a8aff6c702d79d87141e6743816d00,",
-        "color.white": "S:7ef55415aaa5a00ca97c297b37e14499d34fb494,"
+        "token.color.white": "S:7ef55415aaa5a00ca97c297b37e14499d34fb494,"
       }
     }
   ],
